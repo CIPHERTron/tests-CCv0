@@ -35,7 +35,7 @@ container_images:
 
   agnhost:
     description: "Kubernetes host OS agnostic test image"
-    name: "k8s.gcr.io/e2e-test-images/agnhost"
+    name: "registry.k8s.io/e2e-test-images/agnhost"
     # Keep this updated with the Kubernetes version used for testing.
     version: "2.21"
 
